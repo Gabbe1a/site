@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    margin-right: auto;
+}
+
+#bio-container {
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    text-align: left;
+    color: white;
+    margin-right: auto;
+}
+
+#image-container {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#player-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
